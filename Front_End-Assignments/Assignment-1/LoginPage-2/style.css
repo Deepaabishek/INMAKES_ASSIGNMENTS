@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template: 590px / 330px;
+    justify-content: center;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+}
+
+.container{
+    border: 2px solid black;
+    margin-top: 180px;
+    backdrop-filter: blur(5px);
+    /* border-color: transparent; */
+    /* border-radius: 50px; */
+}
+
+.container .heading{
+    text-transform: uppercase;
+}
+
+.container .login{
+    float: left;
+    margin: 70px 0 0 50px;
+    font-weight: bolder;
+    color: rgb(143, 66, 143);
+    cursor: pointer;
+}
+
+.container .signup{
+    float: left;
+    margin: 70px 0 0 100px;
+    font-weight: bolder;
+    color: rgb(143, 66, 143);
+    cursor:pointer;
+}
+
+.container .center{
+    text-align: center;
+}
+
+.container .center .input-1{
+    margin-top: 30px;
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    border-color: transparent;
+}
+
+.container .center .input-2{
+    margin-top: 13px;
+    padding: 10px 0 10px 10px;
+    height: 40px;
+    width: 300px;
+    border-color: transparent;
+}
+
+.container .remember{
+    margin: 20px 0 0 20px;
+}
+
+.container .remember #check{
+    cursor: pointer;
+}
+
+.container .center .button{
+    margin-top: 40px;
+    padding: 10px 130px;
+    border-radius: 50px;
+    background-color: rgb(143, 66, 143);
+    cursor:pointer;
+}
+
+.container .center .forget{
+    margin-top: 10px;
+    color: whitesmoke;
+    border-color: transparent;
+    cursor:pointer;
+}
+
+i{
+    position: absolute;
+    left: 730px;
+    top: 139px;
+    font-size: 70px;
+    z-index: 1000;
+}
+
+
+
+

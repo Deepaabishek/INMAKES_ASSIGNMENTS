@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container{
+    border: 3px solid black;
+    width: 50vw;
+    padding-top: 3px;
+    padding-left: 5px;
+    border-radius: 20px;
+    line-height: 45px;
+    background-image: linear-gradient(to right, #4B8378, #FF9636);
+}
+
+.container label{
+    display: inline-block;
+    width: 12vw;
+}
+
+.container-3 .address{
+    float: left;
+    line-height: 130px;
+}
+
+.container-3 #address{
+    height: 20vh;
+    width: 25vw;
+}
+
+.container-5 label{
+    width: 5vw;
+}
+
+.container-5 #travel{
+    margin-left: 7.1vw;
+}
+
+.container-5 #other{
+    margin-left: 12.4vw;
+}
+
+.container-5 #others{
+    margin-left: 0;
+}
+
+.qualify{
+    float: left;
+    line-height: 33vh;
+}
+
+.container-6 li{
+    list-style-type: none;
+}
+
+.container-6{
+    border: 3px solid black;
+    height: 22vmax;
+    width: 37vw;
+    margin: 2vh 0 0 12vw;
+    padding: 1vh 1vw 1vh 1vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-6 input{
+    width: 4vw;
+    height: 2.5vh;
+}
+
+.course{
+    float: left;
+    position: relative;
+    margin-top: 4vh;
+}
+
+.container-7 li{
+    list-style: none;
+}
+
+.container-7 label{
+    margin-top: 2vh;
+    width: 19vw;
+}
+
+.container-7 li:not(:first-child){
+    margin-left: 12vw;
+}
+
+.container-7 li{
+    line-height: 3vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

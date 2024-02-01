@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students_Registration Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/4a1456c841.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="container-1">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Fname" autofocus class="size">
+                <span>(Max 50 Characters Allowed)</span><br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Lname" class="size">
+                <span>(Max 50 Characters Allowed)</span><br>
+                <label for="mail">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="example123@gmail.com" class="size"><br>
+                <label for="phno">Mobile Number</label>
+                <input type="tel" name="phno" id="phno" placeholder="0123456789" class="size">
+                <span>(10 Digits Allowed)</span>
+            </div>
+            <div class="container-2">
+                <label for="gen" class="gen">Gender</label>
+                <input type="radio" name="male" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female" value="Female">
+                <label for="female">Female</label>
+                <label for="dob">Date of Birth(DOB)</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <div class="container-3">
+                <label for="address" class="address">Address</label>
+                <address>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </address>
+            </div>
+            <div class="container-4">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="size">
+                <span>(Max 50 Characters Allowed)</span><br>
+                <label for="Pin Code">Pin Code</label>
+                <input type="number" name="Pin Code" id="pin_code" class="size">
+                <span>(Max 6 Characters Allowed)</span><br>
+                <label for="state">State</label>
+                <input type="text" name="state" id="state" class="size">
+                <span>(Max 50 Characters Allowed)</span><br>
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" class="size">
+            </div>
+            <div class="container-5">
+                <label for="hobby">Hobbies</label>
+                    <input type="checkbox" name="travel" id="travel">
+                    <label for="travel" class="trav">Travelling</label>
+                    <input type="checkbox" name="sing" id="sing">
+                    <label for="sing">Singing</label>
+                    <input type="checkbox" name="dance" id="dance">
+                    <label for="dance">Dancing</label>
+                    <input type="checkbox" name="Cooking" id="Cooking">
+                    <label for="Cooking">Cooking</label><br>
+                    <input type="checkbox" name="others" id="other">
+                    <label for="others">Others</label>
+                    <input type="text" name="others" id="others" class="content">
+                    <span>(Max 50 Characters Allowed)</span>
+            </div>
+                    <label for="qualify" class="qualify">Qualification</label>
+            <div class="container-6">
+                    <ol class="container-6-1">
+                        <li>S.no</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ol>
+                    <ol class="container-6-2">
+                        <li>Examination</li>
+                        <li><label for="classX">Class X</label></li>
+                        <li><label for="classxii">Class XII</label></li>
+                        <li><label for="undergra">Graduation (UG)</label></li>
+                        <li><label for="master">Masters (PG)</label></li>
+                        <li><label for="phd">Ph D</label></li>
+                    </ol>
+                    <ol class="container-6-3">
+                        <li>Board</li>
+                        <li><input type="text" id="classX"></li>
+                        <li><input type="text" id="classXii"></li>
+                        <li><input type="text" id="undergra"></li>
+                        <li><input type="text" id="master"></li>
+                        <li><input type="text" id="phd"></li>
+                        <li>(10 char max)</li>
+                    </ol>
+                    <ol class="container-6-4">
+                        <li>Percentage</li>
+                        <li><input type="text" id="classX"></li>
+                        <li><input type="text" id="classXii"></li>
+                        <li><input type="text" id="undergra"></li>
+                        <li><input type="text" id="master"></li>
+                        <li><input type="text" id="phd"></li>
+                        <li>(upto 2 decimal)</li>
+                    </ol>
+                    <ol class="container-6-5">
+                        <li>Year of Passing</li>
+                        <li><input type="text" id="classX"></li>
+                        <li><input type="text" id="classXii"></li>
+                        <li><input type="text" id="undergra"></li>
+                        <li><input type="text" id="master"></li>
+                        <li><input type="text" id="phd"></li>
+                    </ol>
+            </div>
+                <div class="course">
+                    <label for="course">Courses</label>
+                </div>
+            <ol class="container-7">
+                <li>
+                    <input type="radio" name="bca" id="bca">
+                    <label for="bca">BCA(Bachelor of Computer Applications)</label>
+                </li>
+                <li>
+                    <input type="radio" name="bcom" id="bcom">
+                    <label for="bcom">(B.ComBachelor of Commerce)</label>
+                </li>
+                <li>
+                    <input type="radio" name="bsc" id="bsc">
+                    <label for="bsa">B.Sc(Bachelor of Science)</label>
+                </li>
+                <li>
+                    <input type="radio"name="ba" id="ba">
+                    <label for="ba">BA(Bachelor of Arts)</label>
+                </li>
+            </ol>
+        </form>
+    </div>
+</body>
+</html>

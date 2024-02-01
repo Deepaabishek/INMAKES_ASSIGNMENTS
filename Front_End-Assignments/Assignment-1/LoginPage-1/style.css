@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-4.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template: repeat(2,400px) / 400px 500px;
+    place-content: center center;
+    margin-top: 150px;
+}
+
+.container-1{
+    border: 1px solid black;
+    background-color: #037ca4;
+}
+
+.container-1 .heading{
+    text-transform: uppercase;
+    margin: 90px 0 0 80px;
+}
+
+.container-2{
+    border: 1px solid black;
+    background-color: #8b0214;
+}
+
+.container-1 .socialmedia, .container-2 .middle, .last{
+    text-align: center;
+}
+
+.container-1 i{
+    font-size: 23px;
+    float: left;
+    margin: 90px 0 0 57px;
+}
+
+.container-1 .line-1{
+    margin: 30px 0 0 45px;
+}
+
+.container .socialmedia{
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.container-1 .socialmedia .facebook button{
+    padding: 10px 90px;
+    background-color: #3f69a0;
+    color: whitesmoke;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-1 .socialmedia .twitter button{
+    margin-top: 12px;
+    padding: 10px 100px;
+    color: whitesmoke;
+    background-color: #1DA1F2;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-1 .socialmedia .google button{
+    margin-top: 12px;
+    padding: 10px 96px;
+    color: whitesmoke;
+    background-color: rgb(212, 39, 39);
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-2 h1{
+    margin-top: 30px;
+}
+
+.container-2 .middle p span{
+    cursor: pointer;
+    color: #0092C1;
+}
+.container-2 p{
+    margin-top: 5px;
+}
+
+.container-2 .mail input{
+    margin-top: 30px;
+    padding: 5px 0 5px 5px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.container-2 .password input{
+    margin-top: 20px;
+    padding: 5px 0 5px 5px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.container-2 .check{
+    margin: 20px 0 0 75px;
+    float: left;
+}
+
+.container-2 .check #remember{
+    cursor: pointer;
+}
+
+.container-2 .pass{
+   float: right;
+   margin: 20px 50px 0 0;
+   color: #0092C1;
+   font-weight: bolder;
+    cursor: pointer;   
+}
+
+.container-2 .button{
+    margin-top: 30px;
+    padding: 10px 150px;
+    border-radius: 5px;
+    background-color: #3f69a0;
+    color: whitesmoke;
+    border-color: transparent;
+    cursor: pointer;
+}

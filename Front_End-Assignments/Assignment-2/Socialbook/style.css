@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 216, 216);
+}
+
+.container-1{
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: #3f69a0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vh 2vw;
+}
+
+.container-1 .container-1-1{
+    color: whitesmoke;
+}
+
+.container-1 .container-1-1 .heading{
+    float: left;
+}
+
+.container-1 .container-1-1 .heading::first-letter{
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container-1 .container-1-1 #icon-1{
+    margin-left: 2vw;
+}
+
+.container-1 .container-1-1 span{
+    margin: 1.3vh 0 1vh 1vw;
+}
+
+.container-1 .container-1-2 .search-input{
+    position: relative;
+    bottom: 1vh;
+    height: 4vh;
+    width: 15vw;
+    border-radius: 100px;
+    padding: 1vh 0 1vh 2.5vw;
+    background-image: url(images/search.jpg);
+    background-repeat: no-repeat;
+    background-size: 2.5vw 3.5vh;
+    background-position: center left;
+}
+
+.container-1 .container-1-2 img{
+    height: 5vh;
+    width: 3vw;
+    position: relative;
+    top: 1vh;
+}
+
+.container-2{
+   display: flex;
+   justify-content: center;
+   margin-top: 2vh;
+}
+
+.container-2 .avengers{
+    height: 60vh;
+    width: 70vw;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid transparent; */
+    height: 18vh;
+    width: 70vw;
+    margin: 2vh auto 0 auto;
+    padding: 2vh 2vw 0 2vw;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.container-3 .container-3-1 .spidey{
+    height: 13vh;
+    width: 8vw;
+}
+
+.container-3 .container-3-2 .heading-2{
+    margin-top: 1.2vh;
+}
+
+.container-3 .container-3-2 .friends{
+    font-size: 18px;
+}
+
+.container-3 .container-3-2 span img{
+    height: 3.5vh;
+    margin-left: 0.1vw;
+}
+
+.container-3 .container-3-2{
+    position: absolute;
+    left: 12vw;
+    line-height: 3.9vh;
+}
+
+.container-3 .container-3-3 button span{
+    font-size: 20px;
+    
+}
+
+.container-3 .container-3-3 button{
+    padding: 0.5vh 0.5vw 0.5vh 1.9vw;
+    position: relative;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.container-3 .container-3-3 span{
+    position: absolute;
+    top: 0.2vh;
+    left: 0.5vw;
+}
+
+.container-3 .container-3-3 .button-1{
+    background-color: rgb(173, 169, 169);
+}
+
+.container-3 .container-3-3 .button-2{
+    background-color: #3f69a0;
+    color: whitesmoke;
+    margin-left: 0.5vw;
+}
+
+.container-3 .container-3-3 .dot{
+    position: absolute;
+    right: 2.4vw;
+    top: 10.3vh;
+    border-radius: 50px;
+}
+
+.container-3 .container-3-3 .dot span{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(173, 169, 169);
+    padding: 3px 10px;
+}
+
+.container-4{
+    display: grid;
+    margin: 2vh 0 0 14.6vw;
+    width: 70vw;
+    grid-template-columns: 1.6fr 3fr;
+    grid-template-rows: 0.5fr 2fr;
+    grid-template-areas:
+    'container1 container2'
+    'container3 container4'
+    'container5 container6';
+}
+
+.container-4 .container-4-1, .container-4-2{
+    border: 1px solid transparent;
+}
+
+.container-4 .container-4-1{
+    background-color: whitesmoke;
+    grid-area: container1;
+    margin-right: 10px;
+}
+
+.container-4 .container-4-1 h3{
+    padding: 2.5vh 0 0 2vw;
+}
+
+.container-4 .container-4-1 pre{
+    position: relative;
+    font-size: 1.3em;
+    top: 2vh;
+    left: 4.5vw;
+}
+
+.container-4 .container-4-1 hr{
+    width: 20vw;
+    margin: 0 auto;
+}
+
+.container-4 .list-1 ul li{
+    list-style-type: none;
+    line-height: 4vh;
+    padding: 1vh 0 0 4vw;
+}
+
+.container-4 .container-4-2{
+    background-color: whitesmoke;
+    grid-area: container2;
+    padding: 2vh 0 0 1vw;
+    /* height: 30vh; */
+}
+
+.container-4 .container-4-2 img{
+    height: 10vh;
+    float: left;
+}
+
+.container-4 .container-4-2 .para1{
+    margin: 1.5vh 0 0 5.5vw;
+    font-size: 1.5em;
+}
+
+.container-4 .container-4-2 .para2{
+    margin: 0.4vh 0 0 5.5vw;
+    font-size: 1.3em;
+}
+
+.container-4 .container-4-2 .para3{
+    margin: 5vh 0 0 5.5vw;
+    font-size: 2em;
+}
+
+.container-4 .container-4-2 hr{
+    margin-top: 5vh;
+    width: 40vw;
+}
+
+.container-4 .container-4-2 .list-2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-4 .container-4-2 .live, .photo, .feeling{
+    margin-left: 0.5vw;
+}
+
+.container-4 .container-4-2 .list1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-4 .container-4-2 .list1 img{
+    height: 6vh;
+}
+
+.container-4 .container-4-2 .list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-4 .container-4-2 .list2 #camera{
+    color: green;
+}
+
+.container-4 .container-4-2 .list3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-4 .container-4-2 .list3 #reaction{
+    color: rgb(148, 148, 5);
+}
+
+.container-4 .container-4-3{
+    background-color: whitesmoke;
+    margin: 2vh 10px 0 0;
+    grid-area: container3;
+}
+
+.container-4 .container-4-3 .spider{
+        height: 10vh;
+        float: left;
+        padding: 2vh 0 0 1vw;
+}
+
+.container-4 .container-4-3 .spidey_man{
+    padding: 3vh 0 0 5.5vw;
+}
+
+.container-4 .container-4-3 .spidey_man .spidey{
+    font-size: 1.6em;
+}
+
+.container-4 .container-4-3 .container-4-3-1{
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+    'image1 image2 image3'
+    'image4 image5 image6'
+    'image7 image8 image9';
+    margin-top: 4.5vh;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image img{
+    height: 18vh;
+    width: 6vw;
+    margin: 0 1vw 1vh 0;
+    border: 1px solid black;
+    clear: left;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image1{
+    grid-area: image1;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image2{
+    grid-area: image2;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image3{
+    grid-area: image3;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image4{
+    grid-area: image4;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image5{
+    grid-area: image5;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image6{
+    grid-area: image6;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image7{
+    grid-area: image7;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image8{
+    grid-area: image8;
+}
+
+.container-4 .container-4-3 .container-4-3-1 .image9{
+    grid-area: image9;
+}
+
+.container-4 .container-4-4{
+    background-color: whitesmoke;
+    margin-top: 2vh;
+    grid-area: container4;
+    position: relative;
+}
+
+.container-4 .container-4-4 .spider{
+    height: 10vh;
+    float: left;
+    padding: 2vh 0 0 1vw;
+}
+
+.container-4 .container-4-4 .paragraph{
+    padding: 3vh 0 0 5.5vw;
+}
+
+.container-4 .container-4-4 .paragraph .para1{
+    font-size: 1.5em;
+}
+
+.container-4 .container-4-4 .paragraph .para2{
+    margin-top: 0.5vh;
+}
+
+.container-4 .container-4-4 #span{
+    position: absolute;
+    right: 1vw;
+    top: 5vh;
+}
+
+.container-4 .container-4-4 .para3{
+    clear: left;
+    margin: 3vh 0 0 1vw;
+}
+
+.container-4 .container-4-4 .para3 .span{
+    color: rgb(50, 50, 193);
+}
+
+.container-4 .container-4-4 .avenger{
+    height: 52vh;
+    margin: 1vh 0 0 1vw;
+}
+
+.container-4 .container-4-4 .symbols{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+.container-4 .container-4-4 .symbols .icons{
+    display: flex;
+}
+
+.container-4 .container-4-4 .symbols .icons .like, .comment, .share{
+    margin-left: 2vw;
+}
+
+.container-4 .con
+
+.container-4 .container-4-4 .symbols .icons .like .span1{
+    margin: 5vh 0 0 0.5vw;
+}
+
+.container-4 .container-4-4 .symbols .more img{
+    height: 3vh;
+    margin-right: 0.5vw;
+}
+
+.container-4 .container-4-4 .symbols .icons .like{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-4 .symbols .icons .like span:first-child{
+    color: #3f69a0;
+}
+
+.container-4 .container-4-4 .symbols .icons .comment{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-4 .symbols .icons .share{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-4 .icons .like .span1, .comment .span2, .share .span3{
+    margin-left: 0.5vw;
+}
+
+.container-4 .container-4-4 .symbols .more{
+    display: flex;
+    align-items: center;
+    margin: 0 1vw 0 0;
+}
+
+.container-4 .container-4-5{
+    background-color: whitesmoke;
+    margin: 2vh 10px 0 0;
+    grid-area: container5;
+}
+
+.container-4 .container-4-5 .spidey_man{
+    padding: 2vh 0 0 1vw;
+}
+
+.container-4 .container-4-5 .spid{
+    height: 10vh;
+    float: left;
+}
+
+.container-4 .container-4-5 .spidey_man .letters{
+    margin: 2vh 0 0 5.5vw;
+}
+
+.container-4 .container-4-5 .spidey_man .letters .spidey{
+    font-size: 1.5em;
+}
+
+.container-4 .container-4-5 .spidey_man .letters .nanban{
+    margin-top: 0.5vh;
+}
+
+.container-4 .container-4-5 .mutual{
+    display: grid;
+    grid-template-areas:
+    'image1 image2 image3'
+    'image4 image5 image6'
+    'image7 image8 image9';
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.container-4 .container-4-5 .mutual img{
+    height: 18vh;
+    width: 6vw;
+    margin: 0 1vw 1vh 0;
+    border: 1px solid black;
+    clear: left;
+}
+
+.container-4 .container-4-5 .mutual .image1{
+    grid-area: image1;
+}
+
+.container-4 .container-4-5 .mutual .image2{
+    grid-area: image2;
+}
+
+.container-4 .container-4-5 .mutual .image3{
+    grid-area: image3;
+}
+
+.container-4 .container-4-5 .mutual .image4{
+    grid-area: image4;
+}
+
+.container-4 .container-4-5 .mutual .image5{
+    grid-area: image5;
+}
+
+.container-4 .container-4-5 .mutual .image6{
+    grid-area: image6;
+}
+
+.container-4 .container-4-5 .mutual .image7{
+    grid-area: image7;
+}
+
+.container-4 .container-4-5 .mutual .image8{
+    grid-area: image8;
+}
+
+.container-4 .container-4-5 .mutual .image9{
+    grid-area: image9;
+}
+
+.container-4 .container-4-6{
+    grid-area: container6;
+    background-color: whitesmoke;
+    margin-top: 2vh;
+    position: relative;
+}
+
+.container-4 .container-4-6 .letters{
+    padding: 3.3vh 0 0 5.5vw;
+}
+
+.container-4 .container-4-6 .letters .name{
+    font-size: 1.5em;
+}
+
+.container-4 .container-4-6 .letters .time{
+    margin-top: 1vh;
+}
+
+.container-4 .container-4-6 #span{
+    position: absolute;
+    right: 1vw;
+    top: 4vh;
+}
+
+.container-4 .container-4-6 .profile .spider{
+    height: 10vh;
+    float: left;
+    padding: 2vh 0 0 1vw;
+}
+
+.container-4 .container-4-6 .avenger .aveng img{
+    height: 55vh;
+    width: 43vw;
+    margin: 1vh 1vw 1vh 1.5vw;
+}
+
+.container-4 .container-4-6 .avenger .desc{
+    clear: left;
+    margin: 2vh 0 0 1.5vw;
+}
+
+.container-4 .container-4-6 .symbols1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1{
+    display: flex;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1 .like1, .comment1, .share1{
+    margin-left: 2vw;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1 .like1 .span1, .comment1 .span2, .share1 .span3{
+    margin-left: 0.5vw;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1 .like1{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1 .comment1{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-6 .symbols1 .icons1 .share1{
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-6 .symbols1 .more{
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.container-4 .container-4-6 .symbols1 .more i{
+    margin-left: 0.5vw;
+}
+
+.container-4 .container-4-6 .symbols1 .more img{
+    height: 3vh;
+}
