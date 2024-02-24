@@ -3,17 +3,15 @@ import java.util.Scanner;
 public class String_Reverse {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.print("Enter a string: ");
-        String str = input.nextLine();
-        System.out.println("Before Reversing: "+str);
-        String ans = stringReverse(str);
-        System.out.println("After Reversing: "+ans);
-
+        System.out.print("Enter a String: ");
+        String str1 = input.nextLine();
+        System.out.println("Orginal String: " + str1);
+        String ans = stringReverse(str1);
+        System.out.println("Reversed String: " + ans);
         input.close();
     }
 
-    public static String stringReverse(String str1){
+    public static String stringReverse(String str1) {
         char[] ch = str1.toCharArray();
         int start = 0;
         int end = str1.length() - 1;
@@ -22,7 +20,6 @@ public class String_Reverse {
             temp = ch[start];
             ch[start] = ch[end];
             ch[end] = temp;
-
             start++;
             end--;
         }
